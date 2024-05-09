@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" />
+  <title>LetDiv</title>
+</head>
+<body>
+  <h1>Quản Lý Sản Phẩm</h1>
+
+  <section class="insert-form">
+    <div class="insert-form__row">
+      <label>Mã: </label>
+      <input type="text" name="id" />
+    </div>
+    <div class="insert-form__row">
+      <label>Tên: </label>
+      <input type="text" name="name" />
+    </div>
+    <div class="insert-form__row">
+      <label>Giá: </label>
+      <input type="number" name="price" />
+    </div>
+
+    <button>Lưu</button>
+  </section>
+
+  <section class="data-list">
+    <table>
+      <thead>
+        <tr>
+          <th width="15%">Mã</th>
+          <th>Tên</th>
+          <th width="15%">Giá</th>
+          <th width="18%">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td>1</td>
+          <td>Amet excepteur nisi consequat fugiat consequat quis et Lorem ex consectetur minim consectetur.</td>
+          <td>20000đ</td>
+          <td>
+            <a class="action-button edit-button" href="#">Edit</a>
+            <a class="action-button delete-button" href="#">Delete</a>
+            <button class="save-button hidden">Lưu</button>
+            <button class="cancel-button hidden">Quay Lại</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            <input type="text" name="name" value="Amet excepteur nisi consequat fugiat consequat quis et Lorem ex consectetur minim consectetur.">
+          </td>
+          <td>
+            <input type="text" name="price" value="10000">
+          </td>
+          <td>
+            <a class="action-button edit-button hidden" href="#">Edit</a>
+            <a class="action-button delete-button hidden" href="#">Delete</a>
+            <button class="save-button">Lưu</button>
+            <button class="cancel-button">Quay Lại</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Amet excepteur nisi consequat fugiat consequat quis et Lorem ex consectetur minim consectetur.</td>
+          <td>20000đ</td>
+          <td>
+            <a class="action-button edit-button" href="#">Edit</a>
+            <a class="action-button delete-button" href="#">Delete</a>
+            <button class="save-button hidden">Lưu</button>
+            <button class="cancel-button hidden">Quay Lại</button>
+          </td>
+        </tr> -->
+      </tbody>
+    </table>
+  </section>
+  
+  <script src="dom-1.js"></script>
+</body>
+</html>
